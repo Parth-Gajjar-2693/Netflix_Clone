@@ -1,8 +1,30 @@
-# React + Vite
+This project is a Netflix clone built with React.js. It features a responsive user interface and provides functionalities such as browsing movies, user authentication, and video playback. The project utilizes various modern web technologies and APIs to deliver a seamless streaming experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Components:
+-----------
+Footer:
+footer.jsx and footer.css: Contains the footer layout and styling.
 
-Currently, two official plugins are available:
+Navbar:
+navbar.jsx and navbar.css: Manages the navigation bar and its styles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TitleCards:
+TitleCards.jsx and TitleCards.css: Displays movie titles in card format.
+
+Pages:
+-----
+Home:
+Home.jsx and Home.css: The main landing page displaying featured movies and categories.
+
+Login:
+Login.jsx and Login.css: User authentication page.
+
+Player:
+Player.jsx and Player.css: Video player interface for streaming content.
+
+Technologies Used:
+-----------------
+React Router DOM: For navigating between different pages and maintaining routing in the app.
+React Toastify: To display notifications and alerts to the user.
+TMDB API: Fetches movie data to populate the UI with real-time content.
+Firebase: Used to store and manage user login information securely.
