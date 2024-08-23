@@ -25,6 +25,10 @@ Player.jsx and Player.css: Video player interface for streaming content.
 Technologies Used:
 -----------------
 React Router DOM: For navigating between different pages and maintaining routing in the app.
+
 React Toastify: To display notifications and alerts to the user.
+
 TMDB API: Fetches movie data to populate the UI with real-time content.
+
 Firebase: Used to store and manage user login information securely.
+
